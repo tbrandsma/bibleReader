@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "f202fd6b-b038-456f-9299-e017a3ef0a1d",
+      "data": [
+        {
+          "text": "Sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d0405b8-f4bb-4de3-918a-cdf0c7c30658",
+      "data": [
+        {
+          "text": "I want to hear another"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec4f4f9c-58f7-4ae6-9299-479ca83f1c59",
+      "data": [
+        {
+          "text": "Tell me another"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "869c6d91-05e3-4ccc-bdf1-90ac38146458",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4a8b50d7-de2b-4450-b2ee-3992321b9236",
+  "name": "say_cat_fact",
+  "auto": true,
+  "contexts": [
+    "cat-facts"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "say_cat_fact",
+      "affectedContexts": [
+        {
+          "name": "cat-facts",
+          "lifespan": 5
+        },
+        {
+          "name": "in_dialog",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

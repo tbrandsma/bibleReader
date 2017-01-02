@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "35b0740a-0ba8-45ba-82f1-b614152dfb57",
+      "data": [
+        {
+          "text": "Sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43593038-574e-4edc-bd39-49eef4d7758e",
+      "data": [
+        {
+          "text": "Tell me another"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "606cab3f-a31b-44b9-864c-922c263fcfea",
+      "data": [
+        {
+          "text": "I want to hear another"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d772eebf-905c-4c0d-927d-c2387623c4b2",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b88027fa-3f48-40fe-bd3c-50bca016e60f",
+  "name": "say_google_fact",
+  "auto": true,
+  "contexts": [
+    "google-facts"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "say_google_fact",
+      "affectedContexts": [
+        {
+          "name": "google-facts",
+          "lifespan": 5
+        },
+        {
+          "name": "in_dialog",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@fact-category",
+          "name": "category",
+          "value": "#google-facts.category",
+          "prompts": [
+            "Which category of fact do you want to hear? History or headquarters?",
+            "Would you like to hear about Google\u0027s headquarters or its history?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

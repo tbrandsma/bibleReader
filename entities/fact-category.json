@@ -1,0 +1,21 @@
+{
+  "id": "58f58ce7-93ad-4110-9884-0ed2a18ef255",
+  "name": "fact-category",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "history",
+      "synonyms": [
+        "history"
+      ]
+    },
+    {
+      "value": "headquarters",
+      "synonyms": [
+        "headquarters"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

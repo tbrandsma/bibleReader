@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "f056c0d3-9b7c-40a3-96da-c74d79a5cec9",
+  "name": "In Dialog Fallback",
+  "auto": false,
+  "contexts": [
+    "in_dialog"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "in_dialog",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry, I didn\u0027t understand. I can tell you about Google\u0027s history, or its headquarters. Which one do you want to hear about?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}
