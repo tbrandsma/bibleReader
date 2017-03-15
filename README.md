@@ -7,6 +7,7 @@ When the Google Home came out last year, I had the idea to try and use the APIs 
 ### v1.0
 
 This app is still in its infancy. It currently can:
+
     - take a user's spoken input
     - parse out the Book, Chapter, and Verse
     - run a http GET request to bibles.org API and return the JSON response
@@ -19,5 +20,3 @@ Here are some ideas I have for the moment:
 
     - Use API.ai's Context feature to make the app run as long as the user wants to hear verses
     - Add a verse of the day feature that gives the verse of the day from bibles.org
-
-    
